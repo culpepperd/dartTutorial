@@ -13,4 +13,5 @@ void main() {
   print(myName[4]);
   print(myName[5]);
 
+ print(myName.indexOf("D"));
 }
