@@ -14,4 +14,7 @@ void main() {
   print(myName[5]);
 
  print(myName.indexOf("D"));
+
+ print(myName.contains("7"));
+ print(myName.contains("p"));
 }
