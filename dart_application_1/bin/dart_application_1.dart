@@ -1,4 +1,6 @@
 // import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
+import "dart:math";
+
 
 void main() {
   String myName = "Daniel Culpepper";
@@ -6,7 +8,11 @@ void main() {
   bool answer = true;
   int quantity = 300;
   double price = 5.99;
-  quantity = quantity + 50;
+  quantity += 50;
+  price++;
+
+  print("The smaller number between 100 and 9 is: ${min(100, 9)}");
+  print("The square root of 144 is: ${sqrt(144)}");
 
   print(quantity + price);
 
