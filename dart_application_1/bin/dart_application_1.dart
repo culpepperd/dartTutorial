@@ -10,9 +10,12 @@ void main() {
   double price = 5.99;
   quantity += 50;
   price++;
+  double rootNum = sqrt(144);
 
   print("The smaller number between 100 and 9 is: ${min(100, 9)}");
-  print("The square root of 144 is: ${sqrt(144)}");
+  print("The square root of 144 is: $rootNum");
+  print("Is 12 the square root of 144? ${rootNum == sqrt(144)}");
+
 
   print(quantity + price);
 
