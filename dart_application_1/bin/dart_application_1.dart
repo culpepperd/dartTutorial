@@ -4,14 +4,16 @@ void main() {
   String myName = "Daniel Culpepper";
   int age = 33;
   bool answer = true;
+  int quantity = 300;
+  double price = 5.99;
+  quantity = quantity + 50;
+
+  print(quantity + price);
+
   print("Hello, my name is $myName and I am $age years old.");
   print(answer);
   print(myName[0]);
-  print(myName[1]);
-  print(myName[2]);
-  print(myName[3]);
-  print(myName[4]);
-  print(myName[5]);
+  print(myName[7]);
 
   print(myName.indexOf("D"));
 
