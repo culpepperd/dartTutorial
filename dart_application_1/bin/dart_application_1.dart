@@ -1,37 +1,21 @@
 // import 'package:dart_application_1/dart_application_1.dart' as dart_application_1;
 import "dart:math";
+import "dart:io";
 
 
 void main() {
-  String myName = "Daniel Culpepper";
-  int age = 33;
-  bool answer = true;
-  int quantity = 300;
-  double price = 5.99;
-  quantity += 50;
-  price++;
-  double rootNum = sqrt(144);
+    var birthyearint = int.tryParse(stdin.readLineSync(birthyearint));
 
-  print("The smaller number between 100 and 9 is: ${min(100, 9)}");
-  print("The square root of 144 is: $rootNum");
-  print("Is 12 the square root of 144? ${rootNum == sqrt(144)}");
+  print ("write your birth year:");
+var birthyear = stdin.readLineSync();
+var birthyearint = int.parse(birthyear);
+var age = 2021-birthyearint;
+print(age);
 
-
-  print(quantity + price);
-
-  print("Hello, my name is $myName and I am $age years old.");
-  print(answer);
-  print(myName[0]);
-  print(myName[7]);
-
-  print(myName.indexOf("D"));
-
-  print(myName.contains("7"));
-  print(myName.contains("p"));
-
-  String firstName = "Daniel ";
-  String middleName = "Naseeb ";
-  String lastName = "Culpepper ";
-
-  print("My full name is: ${firstName + middleName + lastName}");
+if (birthyearint == null) {
+    print("bad year");
+} else {
+    var age = 2021-birthyearint;
+    print(age);
+}
 }
